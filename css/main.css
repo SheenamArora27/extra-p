@@ -121,13 +121,13 @@ ul li {
     width: 70px;
 	font-size: 21px;
 	color: #000;
-	font-weight: 700;
+	font-weight: 500;
 	float: left;
 	text-transform: uppercase;
     
 }
 #header.fixed {
-	background-color: #000;
+	background-color: #fff;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -158,16 +158,16 @@ ul li {
     margin-right: :30px;
 }
 .navigation a {
-	color: #fff;
+	color: #000;
 	font-size: 19px;
-	font-weight: 900;
+	font-weight: 690;
 	margin-left: 10px;
     margin-right: 20px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #96bcbf;
+	color: #4164ED;
 }
 .nav-toggle {
 	display: none;
@@ -206,7 +206,7 @@ ul li {
 	transition-property: transform;
 }
 .nav-toggle:before {
-	background-color: #e84545;
+	background-color: #4164ED;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -217,7 +217,7 @@ ul li {
 	transition-duration: 0.3s;
 }
 .nav-toggle:after {
-	background-color: #e84545;
+	background-color: #4164ED;
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
@@ -367,7 +367,7 @@ ul li {
 .services {
 	width: 99%;
 	margin: auto;
-	background-color: #96bcbf;
+	background-color: #CFE1FF;
 }
 .services h4 {
 	font-size: 33px;
@@ -572,11 +572,11 @@ hr.style2 {
 	text-align: left;
 	padding-top: 5%;
 	padding-bottom: 7%;
-    background-color:aqua; 
+    background-image:url(./images/footer.png);
 }
 .footer h4 {
 	font-size: 13px;
-	color: #fff;
+	color: #000;
 	margin: 0 0 15px 0;
 	padding: 0px;
 }
@@ -585,7 +585,7 @@ hr.style2 {
 	color: #6c7279;
 }
 .footer a {
-	color: #fff;
+	color: #000;
 }
 .footer a:hover {
 	text-decoration: underline;
@@ -600,7 +600,7 @@ hr.style2 {
 .footer .footer-share a {
 	border: none;
 	font-size: 13px;
-	color: #fff;
+	color: #000;
 	letter-spacing: 15px;
 }
 .footer .fa-heart {
